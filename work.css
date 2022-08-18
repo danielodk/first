@@ -1,0 +1,79 @@
+.image{
+    background-image: url(./eye.jpg);
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.text h1,h3{
+    font-size: 4em;
+    color: brown;
+    position: absolute;
+    align-items: center;
+    left: 35%;
+    padding-top: 30px
+
+}
+h1::first-letter{
+    color: brown;
+    font-size: 150px;
+}
+#go{
+    padding-top: 6em;
+    font: italic;
+    font-size: 30px;
+    color: green;
+    left: 48%;
+
+}
+nav{
+    font-size: 22px;}
+    
+#come{    
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 80%;
+    text-decoration: none;
+    color: red;
+}
+p{
+    font-size: 30px;
+    color: red;
+    position: relative;
+    text-align: center;
+}
+#box{border: 10px solid black;
+    height: 250px;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    left: 17em;
+    position: relative;
+    display: inline-flex;
+    margin: 20px;
+    
+   
+  
+
+}
+h4{
+    color: red;
+}
+#sec{
+    display: inline-flex;
+    position: relative;
+    border-spacing: 20px;
+}
+#map{
+    margin: 10px;
+}
+#road{font-size: 25px;
+    position: relative;
+    text-align: center;
+}
